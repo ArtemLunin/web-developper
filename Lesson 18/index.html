@@ -7,8 +7,9 @@
 	<title>Wordpress интенсив</title>
 	<link rel="stylesheet" href="css/normalize.css">
 	<link rel="preconnect" href="https://fonts.googleapis.com">
-	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet"> 
+	<!-- <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">  -->
+	<link rel="stylesheet" href="css/fonts.css">
 	<link rel="stylesheet" href="css/style.css">
 </head>
 <body>
@@ -142,7 +143,8 @@
 		</div>
 	</section>
 	<!-- /.anounce -->
-	<section class="footer">
+	<!-- моя разметка, ниже - разметка из урока -->
+	<!-- <section class="footer">
 		<div class="container">
 			<div class="footer_links">
 				<a href="#">Служба поддержки</a>
@@ -153,6 +155,17 @@
 				Позвоните нам 8-800-555-01-21
 			</div>
 		</div>
-	</section>
+	</section> -->
+	<!-- footer оформляем как отдельнвй тег, а не класс -->
+	<footer>
+        <div class="info">
+            <div class="info_links">
+                <a href="#" class="underlined">Служба поддержки</a> <!-- # в ссылках используется как заглушка. Когда мы никуда не хотим переходить -->
+                |
+                <a href="#" class="underlined">Политика конфиденциальности</a>
+            </div>
+            Позвоните нам <a href="tel:+88005550121">8-800-555-01-21</a> <!-- Ссылки можно создавать для быстрых звонков и отправки електронных писем (mailto) -->
+        </div>
+    </footer>
 </body>
 </html>
