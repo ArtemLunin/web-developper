@@ -166,10 +166,13 @@ nav {
 }
 .advantages .cause {
 	margin-bottom: 26px;
+	display: flex;
 }
 .advantages .cause_img {
+	padding: 0 18px 0 18px;
 	display: flex;
 	align-items: center;
+	margin-right: 15px;
 	width: 116px;
 	height: 116px;
 	background: #1EACC7;
