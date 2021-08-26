@@ -171,8 +171,8 @@ nav {
 .advantages .cause_img {
 	padding: 0 18px 0 18px;
 	display: flex;
-	align-items: center;
-	margin-right: 15px;
+	align-self: center;
+	margin-right: 25px;
 	width: 116px;
 	height: 116px;
 	background: #1EACC7;
@@ -188,6 +188,7 @@ nav {
 	color: #1EACC7;
 }
 .advantages .cause_text {
+	max-width: 70%;
 	font-weight: 300;
 	font-size: 15px;
 	line-height: 21px;

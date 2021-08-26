@@ -1,0 +1,44 @@
+/* line 8, ../../../var/www/html/WEB-developper/Lesson 28/sass/style.sass */
+h1 {
+  color: red;
+  font-size: 50px;
+  display: block;
+  width: 250px;
+  height: 200px;
+  background-color: red;
+}
+
+/* line 13, ../../../var/www/html/WEB-developper/Lesson 28/sass/style.sass */
+h2 {
+  color: red;
+}
+
+/* line 15, ../../../var/www/html/WEB-developper/Lesson 28/sass/style.sass */
+.block {
+  background-color: black;
+}
+
+/* line 17, ../../../var/www/html/WEB-developper/Lesson 28/sass/style.sass */
+.block h3 {
+  color: red;
+}
+
+/* line 19, ../../../var/www/html/WEB-developper/Lesson 28/sass/style.sass */
+.block_color {
+  background-color: #fff;
+}
+
+/* line 21, ../../../var/www/html/WEB-developper/Lesson 28/sass/style.sass */
+.block_color button {
+  display: block;
+  width: 250px;
+  height: 200px;
+  background-color: red;
+}
+
+/* line 23, ../../../var/www/html/WEB-developper/Lesson 28/sass/style.sass */
+.block .block_color {
+  color: red;
+}
+
+/*# sourceMappingURL=style.css.map */
